@@ -5,3 +5,6 @@ services:
     image: adlakhautkansh22/proimg
     ports:
       - "8085:80"
+    volumes:
+      - ./certs:/etc/nginx/certs
+
